@@ -46,3 +46,35 @@ console.log(b);
 var num =1000;
 // by using ` ` we can use variables by appling ${variable name}
 console.log(`half of ${num} is ${num/2}`);
+
+var ab=10;
+console.log(ab);
+
+ var ab="100"
+console.log(ab);
+
+let c =11;
+console.log(c);
+
+/*let c="112" //SyntaxError: Identifier 'c' has already been declared
+console.log(c);*/
+
+// we can re-intialise but can't re declare
+ 
+c="112";
+console.log(c);
+
+var h=10;
+
+for(var i=0;i<=h;i++)
+{
+    if(i%2==0)
+    {
+     console.log("this is even");
+    }
+}
+
+const d=2;
+// na hi redeclare na hi reintialize
+// const d=5;SyntaxError: Identifier 'd' has already been declared
+//d=4 TypeError: Assignment to constant variable.
