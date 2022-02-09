@@ -22,7 +22,7 @@ console.log(num);
 var float = 2.4;
 console.log(float);
 
-var t=ture;
+var t=true;
 var f =false;
 console.log(t);
 console.log(f);
