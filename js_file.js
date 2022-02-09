@@ -33,3 +33,16 @@ console.log(typeof str);
 
 str = "hello how are ya!";
 console.log(str);
+
+str = "how are you ? \ni am fine";
+// we need to use backslash (\)
+console.log(str);
+
+var b =`how are ya ? 
+i am doing good`;
+// for ` ` we do not need \n
+console.log(b);
+
+var num =1000;
+// by using ` ` we can use variables by appling ${variable name}
+console.log(`half of ${num} is ${num/2}`);
